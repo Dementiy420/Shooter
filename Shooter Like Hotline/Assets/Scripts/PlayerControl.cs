@@ -7,7 +7,7 @@ namespace Player
         // приватные поля
         private Vector2 _input; // Ввод игрока
         private Rigidbody2D _rigidbody2D; // физика
-        private float x, y;
+        private float _x, _y;
 
         // поля для инспектора
         [SerializeField] float speed = 5f; // скорость
@@ -22,22 +22,27 @@ namespace Player
 
         private void Update() // логика управления
         {
-            x = Input.GetAxis("Horizontal");
-            y = Input.GetAxis("Vertical");
+            InputPlayer();
             MouseSpectate();
             Shooting();
         }
+        
 
         private void FixedUpdate()
         {
             Movement();
         }
 
-        private void Movement() // передвижение персонажа
+        private void InputPlayer()
         {
-            _input = new Vector2(x, y).normalized; //считывание ввода
-            _rigidbody2D.linearVelocity = _input * speed; // движение игрока через физику Rigidbody2D
+            _x = Input.GetAxisRaw("Horizontal");
+            _y = Input.GetAxisRaw("Vertical");
+            
+            _input = new Vector2(_x, _y).normalized;
         }
+
+        private void Movement() => _rigidbody2D.linearVelocity = new Vector2(_input.x * speed, _input.y * speed);
+        
 
         private void MouseSpectate() // поворот персонажа в сторону курсора
         {
@@ -47,7 +52,6 @@ namespace Player
             Debug.DrawRay(bulletSpawn.position, bulletSpawn.up * 100f, Color.red);
             
             bulletSpawn.rotation = transform.rotation;
-            
         }
 
         private void Shooting() // реализация стрельбы
