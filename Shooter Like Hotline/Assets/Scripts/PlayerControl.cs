@@ -10,8 +10,8 @@ namespace Player
         private float _x, _y;
 
         // поля для инспектора
-        [SerializeField] float speed = 5f; // скорость
-        [SerializeField] public Transform bulletSpawn; // точка спавна пули
+        [SerializeField] private CharacterData CharacterData;
+        [SerializeField] private Transform bulletSpawn; // точка спавна пули
         [SerializeField] private GameObject bulletPrefab; // префаб пули
 
 
@@ -41,7 +41,9 @@ namespace Player
             _input = new Vector2(_x, _y).normalized;
         }
 
-        private void Movement() => _rigidbody2D.linearVelocity = new Vector2(_input.x * speed, _input.y * speed);
+        private void Movement() => 
+            _rigidbody2D.linearVelocity = 
+                new Vector2(_input.x * CharacterData.Speed, _input.y * CharacterData.Speed);
         
 
         private void MouseSpectate() // поворот персонажа в сторону курсора
