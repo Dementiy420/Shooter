@@ -5,8 +5,11 @@ public class MenuManager : MonoBehaviour
 {
     private Stats stats;
     [SerializeField] private CharactersDataBase charac;
-    
-    public void StartGame() => SceneManager.LoadScene("SampleScene");
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene("SampleScene");
+    }
     
     public void QuitGame() => Application.Quit();
     

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: -6007857137893288414, guid: 6c6ddd2d6f9c00c4bb1df7b4c34f6dd5, type: 3}
   naming: Seiko
-  speed: 12
-  health: 0
+  speed: 7
+  health: 3
