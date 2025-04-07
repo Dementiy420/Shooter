@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c39149f5da76ad4489da2fe13f241f4, type: 3}
-  m_Name: Oswald
+  m_Name: Seiko
   m_EditorClassIdentifier: 
-  sprite: {fileID: -5102925445796501146, guid: 7ac42b7f1f61b6e4faa12caa6a624ace, type: 3}
-  naming: Oswald
-  speed: 7
-  health: 1
+  sprite: {fileID: -6007857137893288414, guid: 6c6ddd2d6f9c00c4bb1df7b4c34f6dd5, type: 3}
+  naming: Seiko
+  speed: 12
+  health: 0
