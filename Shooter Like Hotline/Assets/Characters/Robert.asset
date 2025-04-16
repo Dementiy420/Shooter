@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c39149f5da76ad4489da2fe13f241f4, type: 3}
   m_Name: Robert
   m_EditorClassIdentifier: 
-  sprite: {fileID: -2226042836313400744, guid: 142aaee5adc3c3446b08852ec2b23d72, type: 3}
+  sprite: {fileID: -3967183307455983007, guid: f33922657cebed74ab88a6679c9a3ef6, type: 3}
   naming: Robert
   speed: 3
   health: 10

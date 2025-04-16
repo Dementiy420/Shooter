@@ -67,7 +67,7 @@ namespace Player
         {
             // считывание курсоса и поворот игрока 
             Vector2 mousePos = cam.ScreenToWorldPoint(Input.mousePosition); 
-            transform.up = mousePos - new Vector2(transform.position.x, transform.position.y);
+            transform.right = mousePos - new Vector2(transform.position.x, transform.position.y);
             Debug.DrawRay(bulletSpawn.position, bulletSpawn.up * 100f, Color.red); // на сцене создается луч, который указывает поворот игрока
             
         }
@@ -76,7 +76,6 @@ namespace Player
         {
             if (Input.GetKeyDown(KeyCode.Space)) // считывание пробела для стрельбы
                 Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
-            bulletSpawn.rotation = transform.rotation; // положение спавна пули, чтобы она летела в том направлении, куда смотрит игрок
         }
     }
 }
