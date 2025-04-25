@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
 
@@ -28,9 +29,20 @@ namespace Player
 
         private void Awake() // инициализируем данные для персонажа
         {
-            data = dataBase.GetDataBase.GetCharacter(PlayerPrefs.GetInt("Character")); //считываем по ключу Character переменную, что выбрал игрок для персонажа
+            int? i = PlayerPrefs.GetInt("Character");
+
+            try
+            {
+                data = dataBase.GetDataBase.GetCharacter(PlayerPrefs.GetInt("Character")); //считываем по ключу Character переменную, что выбрал игрок для персонажа
+            }
+            catch (Exception e)
+            {
+                Debug.Log(e);
+            }
+
             _rigidbody2D = GetComponent<Rigidbody2D>(); // получаем доступ к физике объекта
             _spriteRenderer = GetComponent<SpriteRenderer>(); // получаем доступ к спрайту объекта
+                
         }
         
         private void Start() // инициализация объектов
@@ -72,7 +84,7 @@ namespace Player
             
         }
 
-        private void Shooting() // реализация стрельбы
+        private void Shooting() // метод отвечающий за атаку
         {
             if (Input.GetKeyDown(KeyCode.Space)) // считывание пробела для стрельбы
                 Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);

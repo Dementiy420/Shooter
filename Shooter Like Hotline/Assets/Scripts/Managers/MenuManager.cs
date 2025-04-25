@@ -10,7 +10,18 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene("LevelOne");
     }
-    
+
+    public void DropPrefs()
+    {
+        PlayerPrefs.DeleteKey("Character");
+        Debug.Log(PlayerPrefs.GetInt("Character"));
+    }
+
+    public void PrefsInfo()
+    {
+        Debug.Log(PlayerPrefs.GetInt("Character"));
+    }
+
     public void QuitGame() => Application.Quit();
     
     public void QuitToMainMenu() => SceneManager.LoadScene("MainMenu");
