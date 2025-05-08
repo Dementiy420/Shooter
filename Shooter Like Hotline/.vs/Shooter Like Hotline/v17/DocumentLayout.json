@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\Games\\Shooter\\Shooter\\Shooter Like Hotline\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A3AFB205-1E40-09B6-A1D5-41AD0B36AAE0}|Assembly-CSharp.csproj|d:\\games\\shooter\\shooter\\shooter like hotline\\assets\\scripts\\player\\playervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3AFB205-1E40-09B6-A1D5-41AD0B36AAE0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A3AFB205-1E40-09B6-A1D5-41AD0B36AAE0}|Assembly-CSharp.csproj|d:\\games\\shooter\\shooter\\shooter like hotline\\assets\\scripts\\player\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3AFB205-1E40-09B6-A1D5-41AD0B36AAE0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3AFB205-1E40-09B6-A1D5-41AD0B36AAE0}|Assembly-CSharp.csproj|d:\\games\\shooter\\shooter\\shooter like hotline\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3AFB205-1E40-09B6-A1D5-41AD0B36AAE0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3AFB205-1E40-09B6-A1D5-41AD0B36AAE0}|Assembly-CSharp.csproj|d:\\games\\shooter\\shooter\\shooter like hotline\\assets\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3AFB205-1E40-09B6-A1D5-41AD0B36AAE0}|Assembly-CSharp.csproj|solutionrelative:assets\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3AFB205-1E40-09B6-A1D5-41AD0B36AAE0}|Assembly-CSharp.csproj|d:\\games\\shooter\\shooter\\shooter like hotline\\assets\\scripts\\scriptable\\characterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3AFB205-1E40-09B6-A1D5-41AD0B36AAE0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptable\\characterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerControl.cs",
-              "DocumentMoniker": "D:\\Games\\Shooter\\Shooter\\Shooter Like Hotline\\Assets\\Scripts\\Player\\PlayerControl.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerControl.cs",
-              "ToolTip": "D:\\Games\\Shooter\\Shooter\\Shooter Like Hotline\\Assets\\Scripts\\Player\\PlayerControl.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerControl.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAADUAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "InputManager.cs",
+              "DocumentMoniker": "D:\\Games\\Shooter\\Shooter\\Shooter Like Hotline\\Assets\\InputManager.cs",
+              "RelativeDocumentMoniker": "Assets\\InputManager.cs",
+              "ToolTip": "D:\\Games\\Shooter\\Shooter\\Shooter Like Hotline\\Assets\\InputManager.cs",
+              "RelativeToolTip": "Assets\\InputManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T17:10:57.287Z",
+              "WhenOpened": "2025-05-08T16:10:12.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CharacterData.cs",
+              "DocumentMoniker": "D:\\Games\\Shooter\\Shooter\\Shooter Like Hotline\\Assets\\Scripts\\Scriptable\\CharacterData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scriptable\\CharacterData.cs",
+              "ToolTip": "D:\\Games\\Shooter\\Shooter\\Shooter Like Hotline\\Assets\\Scripts\\Scriptable\\CharacterData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scriptable\\CharacterData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T16:09:53.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerVisual.cs",
+              "DocumentMoniker": "D:\\Games\\Shooter\\Shooter\\Shooter Like Hotline\\Assets\\Scripts\\Player\\PlayerVisual.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerVisual.cs",
+              "ToolTip": "D:\\Games\\Shooter\\Shooter\\Shooter Like Hotline\\Assets\\Scripts\\Player\\PlayerVisual.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerVisual.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T15:44:58.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Bullet.cs",
-              "DocumentMoniker": "D:\\Games\\Shooter\\Shooter\\Shooter Like Hotline\\Assets\\Scripts\\Bullet.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet.cs",
-              "ToolTip": "D:\\Games\\Shooter\\Shooter\\Shooter Like Hotline\\Assets\\Scripts\\Bullet.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Bullet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "PlayerControl.cs",
+              "DocumentMoniker": "D:\\Games\\Shooter\\Shooter\\Shooter Like Hotline\\Assets\\Scripts\\Player\\PlayerControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerControl.cs",
+              "ToolTip": "D:\\Games\\Shooter\\Shooter\\Shooter Like Hotline\\Assets\\Scripts\\Player\\PlayerControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerControl.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwAcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T17:05:15.371Z",
+              "WhenOpened": "2025-04-28T05:52:08.542Z",
               "EditorCaption": ""
             }
           ]

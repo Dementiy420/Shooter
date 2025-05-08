@@ -1,3 +1,4 @@
+using UnityEditor.Animations;
 using UnityEngine;
 
 [CreateAssetMenu (menuName = "Characters/Default", fileName = "New Character")]
@@ -19,6 +20,14 @@ public class CharacterData : ScriptableObject
         protected set { }
     }
 
+    [Tooltip("Character Animator")]
+    [SerializeField] private AnimatorController animControl;
+    public AnimatorController Anim 
+    {
+        get { return animControl; }
+        protected set {}
+    }
+
     [Tooltip("Character Speed")]
     [SerializeField] private float speed;
     public float Speed
@@ -32,8 +41,6 @@ public class CharacterData : ScriptableObject
     public int Health
     {
         get { return health; }
-        protected set { }
+        private set {}
     }
-    
-
 }

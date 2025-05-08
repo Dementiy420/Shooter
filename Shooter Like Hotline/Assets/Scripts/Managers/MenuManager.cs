@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class MenuManager : MonoBehaviour
 {
-    private Stats stats;
+
     [SerializeField] private CharactersDataBase charac;
 
     public void StartGame()

@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c39149f5da76ad4489da2fe13f241f4, type: 3}
   m_Name: Oswald
   m_EditorClassIdentifier: 
-  sprite: {fileID: -5102925445796501146, guid: 7ac42b7f1f61b6e4faa12caa6a624ace, type: 3}
+  sprite: {fileID: 8182134092352467697, guid: f33922657cebed74ab88a6679c9a3ef6, type: 3}
   naming: Oswald
+  animControl: {fileID: 9100000, guid: f353fa7fbd84dfd43a995dff2a9a6022, type: 2}
   speed: 5
   health: 5

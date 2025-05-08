@@ -9,13 +9,12 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Text CharacterHealth;
     [SerializeField] private Text CountEnemies;
     [SerializeField] private int Enemies; 
-    [SerializeField] private DataBase dataBase;
     
     private CharacterData _data;
     
     private void Start()
     {
-        _data = dataBase.GetDataBase.GetCharacter(PlayerPrefs.GetInt("Character"));
+        _data = DataBase.Instance.GetDataBase.GetCharacter(PlayerPrefs.GetInt("Character"));
         CharacterName.text = _data.Name;
         CharacterHealth.text = Convert.ToString(_data.Health);
     }

@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: -3967183307455983007, guid: f33922657cebed74ab88a6679c9a3ef6, type: 3}
   naming: Robert
+  animControl: {fileID: 9100000, guid: b7ad329b5fb37fa44b73563304a45d24, type: 2}
   speed: 3
   health: 10
