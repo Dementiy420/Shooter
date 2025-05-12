@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 658960380439697313}
   - component: {fileID: 1393891867420207931}
   - component: {fileID: 2161124016072549965}
+  - component: {fileID: 3153622246131579622}
   m_Layer: 0
   m_Name: Bonfire
   m_TagString: Untagged
@@ -88,7 +89,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!95 &1393891867420207931
 Animator:
   serializedVersion: 7
@@ -148,3 +149,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.9, y: 0.16}
   m_Direction: 1
+--- !u!114 &3153622246131579622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689826638705726817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Size: {x: 1.061033, y: 0.2597351, z: 4}
+  m_Center: {x: -0.00000014901161, y: 0.0332551, z: 0}
+  m_Area: 1
+  m_AffectedAgents: ffffffff
